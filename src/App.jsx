@@ -1,11 +1,14 @@
 
 import './App.css'
+import Footer from './Pages/Shared/Footer/Footer'
+import Header from './Pages/Shared/Header/Header'
 
 function App() {
 
   return (
-    <div>App is ready
-      this section is made by me
+    <div>
+      <Header></Header>
+      <Footer></Footer>
     </div>
   )
 }
